@@ -320,9 +320,7 @@ When the API receives a request for the difficulty statistics for a particular M
           "range": {
             "minPitch": "D-1",
             "maxPitch": "G9"
-          },
-          "timeSigUsage": [],
-          "keyUsage": []
+          }
         }
       ]
     }
