@@ -150,6 +150,8 @@ We also tried to find existing scoring methods. It turns out that much of the ti
 * Online databases (e.g. [pianostreet.com](http://www.pianostreet.com/piano_music/download_1/sheet_1.php))
     * Where do the ratings come from???
 
+
+
 !SLIDE incremental
 ~~~SECTION:notes~~~
 One of the things we noticed at this point was that the difficulty of a piece might vary greatly depending on the instrument. You can play lots of notes on a cello that just don't exist on a violin. More subtly, though, there can be a significant variation in how hard it is to play a sequence of notes based on differing instrument morphologies. As a result, we selected indicators that would not be impacted by the instrument.
@@ -172,6 +174,18 @@ Another thing we considered was the impact of the length of the piece. We decide
 
 * Indicators calculated per-measure
 * Also allows sub-part analysis
+
+
+!SLIDE
+~~~SECTION:notes~~~
+We also discussed our project with faculty from the music department, from whom we got some more sophisticated difficulty indicators that we weren't able to include in our prototype.
+~~~ENDSECTION~~~
+
+* Repetition
+* Consecutive thirds
+* Jumps (for piano)
+* Position (for string instruments)
+* Tonal center
 
 
 
@@ -387,6 +401,15 @@ In addition to improving the difficulty algorithm, we'd like to add features to 
 !SLIDE
 
 # Questions?
+
+
+
+!SLIDE
+
+# Special Thanks
+
+* Clif Kussmaul
+* Vinny Trovato
 
 
 
