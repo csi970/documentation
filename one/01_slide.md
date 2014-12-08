@@ -406,7 +406,7 @@ In addition to improving the difficulty algorithm, we'd like to add features to 
 
 
 
-!SLIDE
+!SLIDE bullets
 
 # Special Thanks
 
