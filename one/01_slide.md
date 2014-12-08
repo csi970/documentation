@@ -178,13 +178,13 @@ Another thing we found was a paper entitled **Score** Analyzer: Automatically De
 
 !SLIDE incremental
 ~~~SECTION:notes~~~
-*Andrew:* Another thing we considered was the impact of the length of the piece. We decided to compute all of our indicators on an averaged **per-measure** basis so that we could compare the difficulty of pieces of differing length. This also allows for **sub-part** analysis, where we can compare relative difficulty between sections of the piece.
+*Andrew:* Another thing we considered was the impact of the length of the piece. We decided to compute all of our indicators on an averaged **per-measure** basis so that we could compare the difficulty of pieces of differing length. This also allows for more **localized** analysis, where we can compare relative difficulty between sections of the piece.
 ~~~ENDSECTION~~~
 
 # Length
 
 * Indicators calculated per-measure
-* Also allows sub-part analysis
+* Also allows localized analysis
 
 
 !SLIDE incremental
@@ -413,6 +413,8 @@ When the API receives a request for the difficulty statistics for a particular M
 !SLIDE
 ~~~SECTION:notes~~~
 *Andrew:* Now we have a brief demonstration of our project.
+
+Show command line (examples-mas) and extensions (43_Clavierstucke and others)
 ~~~ENDSECTION~~~
 
 # Demo :)
@@ -430,7 +432,7 @@ When the API receives a request for the difficulty statistics for a particular M
 
 !SLIDE bullets
 ~~~SECTION:notes~~~
-*Andrew:* We'd like to extend special thanks to Dr. Kussmaul for advising us, as well as Vinny Trovato from the Music Department.
+*Andrew:* We'd like to extend special thanks to Dr. Kussmaul for advising us, as well as Vinny Trovato from the Music Department for telling us how he determines difficulty.
 ~~~ENDSECTION~~~
 
 # Special Thanks
