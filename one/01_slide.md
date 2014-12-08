@@ -176,10 +176,12 @@ Another thing we considered was the impact of the length of the piece. We decide
 * Also allows sub-part analysis
 
 
-!SLIDE
+!SLIDE incremental
 ~~~SECTION:notes~~~
 We also discussed our project with faculty from the music department, from whom we got some more sophisticated difficulty indicators that we weren't able to include in our prototype.
 ~~~ENDSECTION~~~
+
+# Advanced Indicators
 
 * Repetition
 * Consecutive thirds
